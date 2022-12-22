@@ -1,0 +1,174 @@
+/* selector: etiqueta html, class, id, * */ 
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&family=Zen+Dots&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+    color:rgb(255, 218, 138)
+}
+body{
+    background:linear-gradient(to bottom right, rgb(27, 26, 26), rgb(78, 66, 56))
+}
+.home{
+    background-image:url(../img/fondo-home.jpg);
+    width: auto;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.page2{
+    background-image:url(../img/fondo-imagen.jpg);
+    width: auto;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contactame{
+    background-image:url(../img/fondo-cat.jpg);
+    width: auto;
+    height: auto;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+.music-body{
+    background-image:url(../img/fondo-musica.jpg);
+    width: auto;
+    height: auto;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+.opinion{
+    background-image:url(../img/toga.jpg);
+    width: auto;
+    height: auto;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+header {
+    padding: 25px;
+    background-color: rgba(19, 18, 18, 0.733);
+} 
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    font-family: 'Zen Dots', cursive;
+    font-style: normal;
+}
+h1{
+    color: rgb(189, 218, 218);
+    margin: 10px;
+    font-family:'lobster', cursive;
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+}
+.opi-titulo{
+    font-family: 'zen dots', cursive;
+    font-size: 30px;
+    color: palegoldenrod;
+    margin: 2px;
+    text-align: center;
+}
+.contactme{ 
+    text-align: center;
+    font-family:'zen dots', cursive;
+    color: grey;
+}
+.contact{
+    display: flex;
+    flex-direction: row;
+    padding: 15px 300px 15px 300px;
+    justify-content: space-evenly;
+}
+section{
+    display: flex;
+    justify-content: center;
+}
+.mus-vid{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.lol{
+    padding: 0px 50px 0px 50px;
+    margin: 100px;
+    display: flex;
+    align-self: auto;
+    justify-content: center;
+    font-family: 'lobster',cursive;
+    font-size: 40px;
+    background-color:rgba(0, 0, 0, 0.438);
+    border-radius: 10px;
+    color: whitesmoke;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+}
+.mus-info{
+    padding: 0px 50px 0px 50px;
+    margin: 100px;
+    display: flex;
+    align-self: auto;
+    justify-content: center;
+    font-family: 'zen dots',cursive;
+    font-size: 30px;
+    background-color:rgba(0, 0, 0, 0.438);
+    border-radius: 10px;
+    color: whitesmoke;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+}
+.img2{
+    margin: 20px;
+    height: 400px;
+    width: 400px;
+    border-radius: 34px;
+}
+.img22{
+    margin: 20px 20px 20px 850px;
+    height: 400px;
+    width: 400px;
+    border-radius: 34px;
+}
+.opibox{
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.594);
+    border: 0px;
+    border-radius: 20px;
+}
+.form-text{
+    width: 250px;
+    height: 225px;
+    margin: 20px;
+}
+.form-email{
+    width: 250px;
+    margin: 20px;
+}
+footer{
+    padding: 25px;
+    background-color: rgba(141, 141, 141, 0.473);
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.logo{
+    width: 30px;
+    height: 30px;
+    color:rgba(0, 0, 0, 0.781);
+}
+.wp{
+    text-align: justify;
+    font-family: 'zen dots', cursive;
+}
+.video{
+    margin: 20px 2px 20px 2px
+}
+.contact-icon{
+    width: 80px;
+    height: 80px
+}
